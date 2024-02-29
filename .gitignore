@@ -1,0 +1,40 @@
+## Hidden Files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+*~
+.git/
+
+## Directories
+adsb/
+borg/
+documentacion/
+gitea/
+homer/
+mosquitto/
+netdata/
+plex/
+portainer/
+rss/
+tasmoadmin/
+traefik/
+unms/
+urlwatch/
+watchtower/
+lost+found/
+
+## Extensions
+*.zip
+*.log
+*.tmp
+*.xml
+.lock
+.env
+.db
+
+# Command line editors
+.*.sw[a-z]
+*.un~
+Session.vim
+.netrwhist
