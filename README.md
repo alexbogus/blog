@@ -1,2 +1,3 @@
-# blog
-Blog and personal resume
+# About me
+
+Blog personal de Alejandro Aliaga
