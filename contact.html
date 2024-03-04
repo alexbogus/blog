@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alejandro Aliaga - Blog</title>
+
+    <!--
+      - favicon
+    -->
+    <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+    <!--
+      - custom css link
+    -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--
+      - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--
+      - #MAIN
+    -->
+
+    <main>
+
+        <!--
+          - #SIDEBAR
+        -->
+
+        <aside class="sidebar" data-sidebar>
+
+            <div class="sidebar-info">
+
+                <figure class="avatar-box">
+                    <img src="./assets/images/me_profile.jpg" alt="Alejandro Aliaga" width="80">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Selim YILDIZ">Alejandro Aliaga</h1>
+
+                    <p class="title">Cybersecurity Advisor</p>
+                </div>
+
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+
+            </div>
+
+            <div class="sidebar-info_more">
+
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:contacto@alejandroaliaga.com" class="contact-link">contacto</a>
+                        </div>
+
+                    </li>
+
+
+
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>Madrid, Spain</address>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+
+                    <li class="social-item">
+                        <a href="https://www.linkedin.com/in/alexaliaga" class="social-link" target="_blank">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="https://twitter.com/alexaliagasec" target="_blank" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="https://digimodes.wordpress.com" target="_blank" class="social-link">
+                            <ion-icon name="logo-wordpress"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </aside>
+
+
+        <!--
+          - #main-content
+        -->
+
+        <div class="main-content">
+
+            <!--
+              - #NAVBAR
+            -->
+
+            <nav class="navbar">
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <a href="index.html" class="navbar-link">About</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="resume.html" class="navbar-link">Resume</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link active">Blog</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="contact.html" class="navbar-link">Contact</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <!--
+              - #CONTACT
+            -->
+
+            <article class="contact active" data-page="contact">
+
+                <header>
+                    <h2 class="h2 article-title">Contacto</h2>
+                </header>
+
+                <section class="mapbox" data-mapbox>
+                  <figure>
+                    <div class="mapouter"><div class="osm_canvas"><iframe width="820" height="560" id="osm_canvas"  src="about:blank" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><script>document.getElementById('osm_canvas').contentDocument.write('<link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.min.css" />');document.getElementById('osm_canvas').contentDocument.write('<script src = "https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.min.js"><\/script>');document.getElementById('osm_canvas').contentDocument.write('<div id ="osm-map" style = "width:820px; height:560px;"></div>');document.getElementById('osm_canvas').contentDocument.write('<script>var mapOptions={center:[40.4167047, -3.7035825],zoom:14,attributionControl: true}; var map = new L.map("osm-map", mapOptions); map.attributionControl.setPrefix(\'&copy; <a target="_blank" href="https://www.openstreetmap.org/copyright" rel="nofollow noopener noreferrer">OpenStreetMap</a>\'); var layer = new L.TileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png");map.addLayer(layer);let marker = new L.Marker([40.4167047, -3.7035825]);marker.addTo(map).bindPopup(\'\'); marker.on(\'mouseover\',function(ev) {marker.openPopup();});<\/script>');document.getElementById('osm_canvas').contentDocument.close();</script><br><style>.mapouter{position: relative;text-align: right;height: 560px;width: 820px;}</style><a href="https://www.embedmaps.co/openstreetmap">embedding openstreetmap in website</a><style>.osm_canvas{overflow: hidden;background: none !important;height: 560px;width: 820px;}</style></div></div>
+                  </figure>
+                </section>
+
+
+                <section class="contact-form">
+
+                    <h3 class="h3 form-title">Formulario de Contacto</h3>
+
+                    <form action="#"
+                          target="_self" method="POST" id="mG61Hd"
+                          name="EmailForm" class="form" data-form>
+
+                        <div class="input-wrapper">
+                            <input type="text" name="entry.810455347" class="form-input" placeholder="Full name" required data-form-input>
+
+                            <input type="email" name="entry.637228470" class="form-input" placeholder="Email address" required data-form-input>
+                        </div>
+
+                        <textarea name="entry.723078861" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+                        <button class="form-btn" type="submit" disabled data-form-btn>
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span>Send Message</span>
+                        </button>
+
+                    </form>
+                </section>
+
+            </article>
+
+        </div>
+
+    </main>
+
+
+
+
+
+
+    <!--
+      - custom js link
+    -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+      - ionicon link
+    -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

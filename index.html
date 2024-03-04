@@ -2,988 +2,299 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alejandro Aliaga - Personal Portfolio</title>
+    <meta http-equiv="X-UA-Compatible" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alejandro Aliaga</title>
 
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+    <!--
+      - favicon
+    -->
+    <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+    <!--
+      - custom css link
+    -->
+    <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!--
+      - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-  <!--
-    - #MAIN
-  -->
-
-  <main>
-
     <!--
-      - #SIDEBAR
+      - #MAIN
     -->
 
-    <aside class="sidebar" data-sidebar>
+    <main>
 
-      <div class="sidebar-info">
+        <!--
+          - #SIDEBAR
+        -->
 
-        <figure class="avatar-box">
-          <img src="./assets/images/me_profile.jpg" alt="Alejandro Aliaga" width="80">
-        </figure>
+        <aside class="sidebar" data-sidebar>
 
-        <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Alejandro Aliaga</h1>
+            <div class="sidebar-info">
 
-          <p class="title">Cybersecurity Advisor</p>
+                <figure class="avatar-box">
+                    <img src="./assets/images/me_profile.jpg" alt="Alejandro Aliaga" width="80">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Selim YILDIZ">Alejandro Aliaga</h1>
+
+                    <p class="title">Cybersecurity Advisor</p>
+                </div>
+
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+
+            </div>
+
+            <div class="sidebar-info_more">
+
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:contacto@alejandroaliaga.com" class="contact-link">contacto</a>
+                        </div>
+
+                    </li>
+
+
+
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>Madrid, Spain</address>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+
+                    <li class="social-item">
+                        <a href="https://www.linkedin.com/in/alexaliaga" class="social-link" target="_blank">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="https://twitter.com/alexaliagasec" target="_blank" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="https://digimodes.wordpress.com" target="_blank" class="social-link">
+                            <ion-icon name="logo-wordpress"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </aside>
+
+
+
+
+
+        <!--
+          - #main-content
+        -->
+
+        <div class="main-content">
+
+            <!--
+              - #NAVBAR
+            -->
+
+            <nav class="navbar">
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link active">About</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="resume.html" class="navbar-link">Resume</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="blog.html" class="navbar-link">Blog</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="contact.html" class="navbar-link">Contact</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+
+            <!--
+              - #ABOUT
+            -->
+
+            <article class="about  active" data-page="about">
+
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>
+                      Hola, me presento, soy <b>Alejandro Aliaga</b>. Actualmente, cuento con más de 25 años de experiencia profesional en el sector de la Ciberseguridad, a lo largo de mi carrera profesional he pasado por organizaciones internacionales, donde he participado en proyectos de transformación tecnológica relevantes, en diversos sectores como banca, administración pública, seguros, empresas IBEX35, entre otros muchos.
+                    </p>
+
+                    <p>
+                        Durante toda mi carrera, he tratado de especializarme en la gestión de la seguridad, tanto desde el punto de vista tecnológico, como desde el punto de vista estratégico. Me considero perfil multidisciplinar, orientado al cliente, junto con un entendimiento de las tecnologías a muy bajo nivel, lo que me ha permitido convertirme en un interfaz capaz de poder entender la tecnología y el negocio. Siendo muy reconocida, mi colaboración siempre con la alta dirección como asesor estratégico y/o tecnológico.
+                    </p>
+                    <p>
+                        A lo largo de todos estos años, mi carrera profesional, me ha llevado a viajar por gran parte del mundo y a vivir en varias ciudades europeas, lo que me ha hecho entender mejor las diferencias culturales, punto clave para conseguir un mejor engranaje en equipos multinacionales que respeten la pluralidad de perspectivas y realidades en el ámbito global.
+                    <!-- </p>
+                    <p>
+                       En las empresas donde he ejercido como responsable, he tratado de ayudar en el análisis, gestión y mitigación de riesgos de ciberseguridad, aplicando siempre los mejores estándares, las mejores prácticas y controles para aportar siempre una protección adecuada a la información, servicios y sistemas de la organización.
+                    </p>
+                    <p>
+                        Actualmente soy miembro del comité de Dirección de una empresa de ciberseguridad, en donde asesoro a la alta dirección sobre la estrategia internacional de la compañía en cuanto a su crecimiento como, también, en la selección de las tecnologías más adecuadas para su portfolio de soluciones de ciberseguridad.
+                    </p> -->
+
+                </section>
+
+                <!--
+                    - service
+                -->
+
+                <section class="service">
+
+                  <h3 class="h3 service-title">Colaboraciones</h3>
+
+                  <ul class="service-list">
+
+                    <li class="service-item">
+
+                      <div class="service-icon-box">
+                        <img src="./assets/images/press.svg" alt="design icon" width="40">
+                      </div>
+
+                      <div class="service-content-box">
+                        <a href="https://tecnologiaysentidocomun.com/" target="_blank"><h4 class="h4 service-item-title">Tecnología y Sentido Común</h4></a>
+
+
+                        <p class="service-item-text">
+                          Revista electrónica dirigida a la Alta Dirección y a los profesionales en Gobierno y Gestión Organizacional.
+                        </p>
+                      </div>
+
+                    </li>
+
+                    <li class="service-item">
+
+                      <div class="service-icon-box">
+                        <img src="./assets/images/car.svg" alt="Web development icon" width="40">
+                      </div>
+
+                      <div class="service-content-box">
+                        <h4 class="h4 service-item-title">HackerCar</h4>
+
+                        <p class="service-item-text">
+                          Medio especializado en el mundo del motor, cuyo objetivo, es acercar al mundo del motor, la ciberseguridad y las cosas conectadas.
+                        </p>
+                      </div>
+
+                    </li>
+
+                    <li class="service-item">
+
+                      <div class="service-icon-box">
+                        <img src="./assets/images/2wayradio.svg" alt="RadioClub Errante" width="40">
+                      </div>
+
+                      <div class="service-content-box">
+                        <a href="https://www.radiocluberrante.es/" target="_blank"><h4 class="h4 service-item-title">RadioClub Errante</h4></a>
+
+                        <p class="service-item-text">
+                          Fundado por un grupo de jóvenes que creen firmemente que la radioafición experimental está más viva que nunca. Una apuesta firme por las nuevas tecnologías y la innovación.
+                        </p>
+                      </div>
+
+                    </li>
+
+                    <li class="service-item">
+
+                      <div class="service-icon-box">
+                        <img src="./assets/images/emergencies.svg" alt="camera icon" width="40">
+                      </div>
+
+                      <div class="service-content-box">
+                        <h4 class="h4 service-item-title">Otros proyectos</h4>
+
+                        <p class="service-item-text">
+                          Radioaficionado, colaborador con la Asociación de Voluntarios de Protección Civil de Molina de Segura, donde presto asesoramiento en temas de comunicaciones de emergencias. También colaboro con la Red Nacional de Protección Civil -REMER-.
+                        </p>
+                      </div>
+
+                    </li>
+
+                  </ul>
+
+                </section>
+
+            </article>
+
         </div>
 
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+    </main>
 
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:alexbogus@gmail.com" class="contact-link">contact@alejandroaliaga.es</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+34xxxxxxxx" class="contact-link">Ask me</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Madrid, Spain</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://es.linkedin.com/in/alexaliaga" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://digimodes.wordpress.com/" class="social-link">
-              <ion-icon name="logo-wordpress"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://twitter.com/alexaliagasec" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://github.com/alexbogus" class="social-link">
-             <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
 
 
 
 
 
     <!--
-      - #main-content
+      - custom js link
     -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Press Room</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-           I have over 25 years of professional experience in the Cybersecurity sector. Throughout my career, I have worked in international organizations, where I have participated in relevant technological transformation projects in various sectors such as banking, public administration, insurance, IBEX35 companies, among many others.
-          </p>
-
-          <p>
-            Throughout my career, I have sought to specialize in security management, both from a technological and strategic point of view. I consider myself a multidisciplinary profile, oriented to the client, together with an understanding of technologies at a very low level, this has allowed me to become an interface capable of understanding technology and business. Being very useful to always collaborate with senior management as a strategic advisor.
-          </p>
-
-          <p>
-            My professional career has led me to live in cities such as Valencia, Barcelona, Madrid and Rome, as well as to actively travel to countries such as Germany, Italy, Israel and the USA to learn about new security products and services from the most outstanding startups in this sector
-          </p>
-
-          <p>
-            In the companies where I have acted as a manager, I have tried to help in the analysis, management and mitigation of cybersecurity risks, always applying the best standards, best practices and controls to always provide adequate protection to the information, services and systems of the organization
-          </p>
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">Current Collaborations</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">HackerCar</h4>
-
-                <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Tecnología y Sentido Común</h4>
-
-                <p class="service-item-text">
-                  High-quality development of sites at the professional level.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Radioclub Errante</h4>
-
-                <p class="service-item-text">
-                  Professional development of applications for iOS and Android.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Photography</h4>
-
-                <p class="service-item-text">
-                  I make high-quality photos of any category at a professional level.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - clients
-        -->
-
-        <section class="clients">
-
-          <h3 class="h3 clients-title">Clients</h3>
-
-          <ul class="clients-list has-scrollbar">
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Creative director</h4>
-
-              <span>2015 — Present</span>
-
-              <p class="timeline-text">
-                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-                molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Art director</h4>
-
-              <span>2013 — 2015</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Web designer</h4>
-
-              <span>2010 — 2013</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">CyberSecurity</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Security Operations Center (SOC)</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Managing Organizations</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">RF Security</h5>
-                <data value="60">60%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Press Room</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Orizon</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Fundo</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Brawlhalla</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #BLOG
-      -->
-
-      <article class="blog" data-page="blog">
-
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              <a href="https://www.linkedin.com/pulse/seguridad-en-la-nube-alejandro-aliaga-casanova--eevff/?trackingId=Nac80oHPTh2ulWOt6bSWuw%3D%3D" target="_blank">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/seguridad_nube.png" alt="Seguridad en la nube" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Linkedin</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2024-02-27">27/02/2024</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Seguridad en la nube</h3>
-
-                  <p class="blog-text">
-                   Los servicios alojados en la nube ayudan a las empresas a aumentar y extender sus capacidades, incluso pueden ayudarles a mejorar sus procesos operativos, así como, cambiar la manera en la que exponen su negocio al mundo.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="https://www.linkedin.com/pulse/el-reto-de-la-seguridad-en-las-redes-5g-alejandro-aliaga-casanova--5ictf?trackingId=Nac80oHPTh2ulWOt6bSWuw%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recent_activity_content_view%3Bp3My3LSxQqil1rI3hBxi7g%3D%3D" target="_blank">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/el_reto_5g.png" alt="El reto de la seguridad en las redes 5G" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Linkedin</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">12/02/2024</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">El reto de la seguridad en las redes 5G</h3>
-
-                  <p class="blog-text">
-                    Son muchos los países que anunciaron en su momento que el 2020 sería el año del 5G, el año en el que esta tecnología se adoptaría de forma generalizada. Pero la situación de alerta sanitaria en la que vivimos envueltos durante este año ha transformado esos planes y, en algunos casos, incluso los ha retrasado.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="https://www.linkedin.com/pulse/el-proceso-de-gesti%25C3%25B3n-del-threat-hunting-detectando-alejandro-jsalf/?trackingId=Nac80oHPTh2ulWOt6bSWuw%3D%3D" target="_blank">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Linkedin</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2023-11-23">23/11/2023</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">El proceso de gestión del Threat Hunting</h3>
-
-                  <p class="blog-text">
-                    El Threat Hunting puede ayudar a las organizaciones de una forma diferente a como estamos acostumbrados, ya no debemos esperar a que salten las alarmas en nuestros sistemas de monitorización basados en IOC (Indicadores de compromiso), sino que ahora vamos a estudiar cuáles son los TTPs (Tácticas, Técnicas y Procedimientos) usadas por los ciberdelincuentes en sus ataques para conocer mejor cómo detectar cualquier indicio que nos pueda ayudar a saber que estamos siendo atacados o, en la peor situación, que hemos sido comprometidos.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
-        </section>
-
-      </article>
-
-    </div>
-
-  </main>
-
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+      - ionicon link
+    -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 </body>
 
